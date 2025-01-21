@@ -4,7 +4,24 @@
 
 body {
   background-color: black;
+}
+
+.container {
   color: white;
   font-family: 'vt323regular';
   text-align: center;
 }
+
+.container ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+.container li {
+  float: left;
+  padding: 2px 5px;  
+}
+*/
