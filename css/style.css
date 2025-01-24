@@ -8,7 +8,7 @@ body {
 
 .container {
   color: white;
-  font-family: 'vt323regular';
+  font-family: 'VT323';
   text-align: center;
 }
 
@@ -17,4 +17,26 @@ body {
   display: inline-block;
   margin: 0;
   padding: 0;
+}
+
+.button-group-socials {
+  display: block;
+  button {
+    display: block;
+    width: 30%;
+    padding: 10px 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'VT323';
+    font-size: 14px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+  }
+  button:hover {
+    color: black;
+    background-color: white;
+  }
 }
